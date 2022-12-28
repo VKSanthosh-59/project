@@ -11,15 +11,24 @@
         
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
         
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/css/bootstrap.min.css">
+        <link rel="stylesheet" href="/static/assets/css/custom.css">
+
         <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;700&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.3.0/font/bootstrap-icons.css">
 
-        <link href="css/bootstrap.min.css" rel="stylesheet">
+        <link href="https://cdnjs.cloudflare.com/ajax/libs/magnific-popup.js/1.1.0/magnific-popup.min.css">
 
-        <link href="css/bootstrap-icons.css" rel="stylesheet">
 
-        <link href="css/magnific-popup.css" rel="stylesheet">
+        <link href="/static/css/bootstrap.min.css" rel="stylesheet">
 
-        <link href="css/tooplate-waso-strategy.css" rel="stylesheet">
+        <link href="/static/css/bootstrap-icons.css" rel="stylesheet">
+
+        <link href="/static/css/magnific-popup.css" rel="stylesheet">
+
+
+         <link href="/static/css/tooplate-waso-strategy.css" rel="stylesheet">
+
         
 
 
@@ -82,7 +91,7 @@
                                     </div>
 
                                     <div class="carousel-image-wrap">
-                                        <img src="C:\my folder\Bioinformatics\sem 7_Mini project\Agro-Predict\Agro-Predict Website\images\landing image.jpg" class="img-fluid carousel-image" alt="">
+                                        <img src="/static/images/landingimage.jpg" class="img-fluid carousel-image" alt="">
                                     </div>
                                 </div>
 
@@ -136,8 +145,8 @@
 
                         <div class="col-lg-4 col-12">
                             <div class="projects-thumb projects-thumb-small">
-                                <a href="C:\my folder\Bioinformatics\sem 7_Mini project\Agro-Predict\Agro-Predict Website\crop.html">
-                                    <img src="C:\my folder\Bioinformatics\sem 7_Mini project\Agro-Predict\Agro-Predict Website\images\crop pred.jpg" class="img-fluid projects-image" alt="">
+                                    <a href="{{ url_for('crop') }}">
+                                    <img src="/static/images/croppred.jpg" class="img-fluid projects-image" alt="">
                                     
                                     <div class="projects-info">
                                         <div class="projects-title-wrap">
@@ -159,7 +168,7 @@
                         <div class="col-lg-4 col-12">
                             <div class="projects-thumb projects-thumb-small">
                                 <a href="Agro-Predict Website\crop.html">
-                                    <img src="C:\my folder\Bioinformatics\sem 7_Mini project\Agro-Predict\Agro-Predict Website\images\fertilizer.jpg" class="img-fluid projects-image" alt="">
+                                    <img src="/static/images/fertilizer.jpg" class="img-fluid projects-image" alt="">
                                     
                                     <div class="projects-info">
                                         <div class="projects-title-wrap">
@@ -181,7 +190,7 @@
                         <div class="col-lg-4 col-12">
                             <div class="projects-thumb projects-thumb-small">
                                 <a href="c.html">
-                                    <img src="C:\my folder\Bioinformatics\sem 7_Mini project\Agro-Predict\Agro-Predict Website\images\crop disease.jpg" class="img-fluid projects-image" alt="">
+                                    <img src="/static/images/cropdisease.jpg" class="img-fluid projects-image" alt="">
                                     
                                     <div class="projects-info">
                                         <div class="projects-title-wrap">
@@ -199,6 +208,7 @@
                                 </a>
                             </div>
                         </div>
-
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/js/bootstrap.bundle.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/magnific-popup.js/1.1.0/jquery.magnific-popup.min.js"></script>
     </body>
 </html>
